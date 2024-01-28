@@ -29,6 +29,8 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'my-shoppit.herokuapp.com']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://https-github-com-sakilshikdar-fashion-git.onrender.com', 'https://*.127.0.0.1']
 
 # Application definition
 
